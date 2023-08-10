@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ukesoppgave1</title>
+    <link rel="stylesheet" type="text/css" href="ukesoppgave1.css">
+    <!--<style>
+        div.head {
+            background-color: blueviolet;
+        }
+    </style> -->
+    
+    
+</head>
+
+
+
+<body>
+  
+    <button onclick="FargeFryd()"> Forandring Fryder! </button>
+    <div>
+   
+    <h2 class="head"> Om Ingrid Lervåg </h2>
+    </div> 
+
+    
+
+    <div class="intro">
+        <p>Hei! Jeg heter Ingrid Lervåg!<br>
+             Jeg er 29 år gammel og kommer
+            ifra Porsgrunn.<br> 
+            Jeg har en samboer (35år) og en sønn (6år). <br>
+            Jeg har en bachelor i Økologi og naturforvaltning fra USN <br>
+            og en fagskolegrad i saksbehandling fra NKI <br>
+
+        </p>
+    </div> 
+    <div class="head"> Mine fritidssyssler</div>
+    <div class="Hobby">
+       
+        <ul>
+            <li>Håndarbeid:
+                <ul>
+                    <li>strikking</li>
+                    <li>nålefilting</li>
+                    <li>brodering</li>
+                    <li>søm (på maskin)</li>
+                </ul>
+            </li>
+            <li>Tur:
+                <ul>
+                    <li>Skogstur</li>
+                    <li>Sopptur</li>
+                    <li>mosjonstur</li>
+                    <li>tur for å se på og indentifisere planter</li>
+                </ul>
+            </li>
+            <li>Dataspill:
+                <ul>
+                    <li>Skyrim</li>
+                    <li>Minecraft</li>
+                    <li>Medieval Dynasty</li>
+                    <li>Witcher 3</li>
+                    <li>civ</li>
+                    <li>diverse små puzzle games</li>
+                </ul>
+            </li>
+            <li>Matlaging</li>
+            <li>Lese</li>
+            
+        </ul>
+    </div>
+    <div class="head"> Bilde av meg</div>
+    
+    
+
+<script>
+        
+function FargeFryd() {
+var body = document.querySelector("body");
+body.className = "head2";
+
+var temp =document.querySelectorAll(".head2");
+
+for (var i =0; i < temp.length; i++) {
+    temp[i].style.background= "lightblue";
+    temp[i].style.fontSize ="40px";
+}
+}
+    </script> 
+   <div> <img src="Bilde_av_meg.jpg"> </div> 
+</body>
+</html>

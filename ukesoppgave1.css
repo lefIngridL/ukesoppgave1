@@ -1,0 +1,47 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.head {
+    font-size: x-large;
+    color: green;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-color: black;
+    border-style: double;
+    
+}
+.intro {
+    font-size: large;
+    color: blanchedalmond;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px;
+    border-color: rgb(209, 142, 18);
+    border-style: inset;
+}
+.Hobby {
+    font-size: large;
+    color: black;
+    background-color: rgb(6, 88, 88);
+    border: 10px;
+    border-style: ridge;
+    border-color: brown;
+}
+
+
+img {
+        width: 400px;
+        height: fit-content;
+        border: 10px;
+        border-style: outset;
+        border-color: rgb(46, 54, 59);
+    }
